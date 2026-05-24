@@ -2,11 +2,7 @@ name: Ktlint Check
 
 on:
   pull_request:
-    branches:[main, develop]
-
-permissions:
-  content: read
-  pull_requests: write
+    branches: [main, develop]
 
 jobs:
   ktlint:
